@@ -20,3 +20,11 @@
 .App-link {
   color: #09d3ac;
 }
+
+.form{
+  /* display: block; */
+  margin-top: 10em;
+  margin-left: 50em;
+  color: black;
+  /* padding-block: 5em; */
+}
