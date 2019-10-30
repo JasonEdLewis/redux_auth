@@ -25,7 +25,7 @@ export const logginFetch =(admin)=>{
            data = responce.json(); 
            return data
         } 
-        catch(error ){
+        catch(error){
             dispatch(logginFail(error))
         };
        

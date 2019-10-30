@@ -63,9 +63,8 @@ class Login extends Component {
                     <input type="password" name="password" value={this.state.password} onChange={this.handleChange} />
                     <br />
                     <input type="submit" />
-                    {this.state.requsting && this.state.error ? <Indicator /> : <></>}
                     {this.state.error ? <p style={{ color: "red", fontSize: "XX-large" }}>You have entered a wrong username or password</p> : <></>}
-
+                    {this.state.requsting && !this.state.error ? <Indicator /> : <></>}
                 </form>
             </div>
         )
